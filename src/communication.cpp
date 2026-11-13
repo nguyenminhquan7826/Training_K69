@@ -49,3 +49,4 @@ void Communication::sendCommands(float speed, int angle) {
         std::cerr << "UART write error: " << e.what() << "\n";
     }
 }
+// pi communication
