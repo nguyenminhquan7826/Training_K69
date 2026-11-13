@@ -18,5 +18,3 @@ private:
 };
 
 #endif
-// Linh oke
-// quan code
