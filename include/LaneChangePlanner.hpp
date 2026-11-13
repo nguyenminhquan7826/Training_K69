@@ -98,6 +98,8 @@ private:
               target_offset_m(0.0f),
               feasible(false),
               collision(false),
+              settle_counter_(0),       //← dòng mới
+              settle_frames_(0),   
               min_distance_m(std::numeric_limits<float>::infinity()),
               min_ttc_s(std::numeric_limits<float>::infinity()),
               max_curvature(0.0f),
